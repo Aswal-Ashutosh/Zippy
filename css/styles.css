@@ -423,6 +423,7 @@ header .carousel-indicators {
 #contactContainer input {
   border: 0;
   border-radius: 2px;
+  color: gray;
 }
 
 #contactContainer input:focus {
@@ -440,6 +441,10 @@ header .carousel-indicators {
 
 #contactContainer button {
   margin-top: 2.5%;
+}
+
+#contactSection iframe{
+  width: 50vw; height: 100vh;
 }
 /*Contact Section Style End*/
 
