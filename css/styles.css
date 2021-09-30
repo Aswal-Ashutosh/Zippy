@@ -414,6 +414,7 @@ header .carousel-indicators {
   text-align: left;
   background-color: rgba(245, 207, 40, 0.74);
   padding: 2.5%;
+  margin-bottom: .33%;
 }
 
 #contactContainer > form * {
@@ -445,7 +446,7 @@ header .carousel-indicators {
 
 #contactSection iframe{
   width: 49.5vw; 
-  height: 79vh;
+  height: 65vh;
 }
 /*Contact Section Style End*/
 
