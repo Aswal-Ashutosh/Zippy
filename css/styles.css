@@ -464,3 +464,51 @@ footer i:hover{
   color: teal;
 }
 /*Footer Style End*/
+
+
+/*Slide Show Style Start*/
+.slide-show{
+  margin: auto;
+  width: 65%;
+}
+
+.slide-show .row{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.slide-show .col-lg-12{
+  padding: 0;
+}
+
+.slide-item{
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  width: 15.275%;
+  cursor: pointer;
+}
+
+.slide-item.active{
+  padding: 0.25%;
+  border: 3px solid #555;
+}
+
+
+.arrow{
+  display: inline-block;
+  background-color: #610474;
+  color: white;
+  width: 4.1666665%;
+  cursor: pointer;
+}
+
+.arrow i{
+  margin-top: 500%;
+}
+
+.selected-slide{
+  width: 100%;
+  height: 100%;
+}
+/*Slide Show Style End*/
+
