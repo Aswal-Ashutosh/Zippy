@@ -26,13 +26,13 @@ $(document).ready(function () {
 
   //Set onClick => Make slides to move one step right
   $(".arrow-btn-right").click(function () {
-    start = (start + 1) % TOTAL_SLIDES;
+    start = start - 1 >= 0 ? start - 1 : start - 1 + TOTAL_SLIDES;
     updateSlidesAndSelectedSlide();
   });
 
   //Set onClick => Make slides to move one step left
   $(".arrow-btn-left").click(function () {
-    start = start - 1 >= 0 ? start - 1 : start - 1 + TOTAL_SLIDES;
+    start = (start + 1) % TOTAL_SLIDES;
     updateSlidesAndSelectedSlide();
   });
 });
